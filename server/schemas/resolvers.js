@@ -36,7 +36,6 @@ const resolvers = {
             if (!correctPass) {
                 throw new AuthenticationError('Invalid log in credentials!');
             }
-
             const token = signToken(user);
             return { token, user };
         },
@@ -50,7 +49,6 @@ const resolvers = {
                 );
                 return updateUser
             }
-
             throw new AuthenticationError('You need to be logged in')
         },
         removeBook: async (parent, { bookId }, context, info) => {
@@ -60,7 +58,6 @@ const resolvers = {
                     { $pull: { savedBooks: { bookId } } },
                     { new: true }
                 );
-
                 return updateUser
             }
             throw new AuthenticationError('You need to be logged in')
