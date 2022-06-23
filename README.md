@@ -60,7 +60,7 @@ This application can be run using the deployed Heroku link. To run on your compu
 
 ## Contributors
 
-- Thank you to my tutor Katherine Redford & Jordan Hessler for helping me work through errors with Heroku deployment and connecting Atlas databse. 
+- N/A
 
 ## License
 
@@ -68,14 +68,6 @@ This application is covered under MIT License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-
-
-### NOTE TO GRADERS:
-I have spent countless hours on this assignment. I was not able to get a tutor for this due to my work schedule. I have googled, got helped from fellow classmates, and asked friends who works in the web developer industry, but still no luck and was not able to figure out the problem.
-
-The app works locally but crashes when deploying to kipu. 
-
-I understand if I get a bad grade for this assignment but please don't mark this incomplete as I tried EVERYTHING in my power to make this work. I apologize for the inconvinience and thank you for understanding.
 
 
 - - -
