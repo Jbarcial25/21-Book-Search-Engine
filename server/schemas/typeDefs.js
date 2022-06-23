@@ -12,7 +12,7 @@ const typeDefs = gql `
     }
 
     type User {
-        _Id: ID!
+        _id: ID!
         username: String!
         email: String
         bookCount: Int
@@ -29,7 +29,7 @@ const typeDefs = gql `
     }
 
     type Auth {
-        toke: ID!
+        token: ID!
         user: User
     }
 
